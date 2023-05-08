@@ -14,6 +14,8 @@
 # Configure Using Gemfile
 # gem "pg"
 #
+
+
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -84,3 +86,5 @@ production:
   database: cat_tinder_backend_production
   username: cat_tinder_backend
   password: <%= ENV["CAT_TINDER_BACKEND_DATABASE_PASSWORD"] %>
+
+  
